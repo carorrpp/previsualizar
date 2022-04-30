@@ -85,6 +85,10 @@ img {
     background-color: black
 }
 
+.box2 p {
+    color: aliceblue;
+}
+
 .img2:hover {
     -webkit-transform: rotateY(180deg);
     -webkit-transform-style: preserve-3d;
@@ -181,27 +185,24 @@ footer {
     .box.box3 {
         position: relative;
     }
-}
-
-h3 {
-    margin: auto;
-    font-size: 10rem;
-}
-
-@keyframes mianimacion {
-    0% {
-        transform: scale(0.2);
+    h3 {
+        margin: auto;
+        font-size: 10rem;
     }
-    85% {
-        transform: scale(1.1);
+    @keyframes mianimacion {
+        0% {
+            transform: scale(0.2);
+        }
+        85% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
     }
-    100% {
-        transform: scale(1);
+    footer {
+        position: relative;
     }
-}
-
-footer {
-    opacity: 0;
 }
 
 @media screen and (max-width: 412px) {
@@ -227,7 +228,7 @@ footer {
         margin: auto;
     }
     .box {
-        height: 40em;
+        height: 50em;
         width: 100%;
         display: flex;
         align-items: center;
@@ -255,26 +256,25 @@ footer {
     .box3 img {
         opacity: 0%;
     }
-}
-
-h3 {
-    margin: auto;
-    font-size: 10rem;
-}
-
-@keyframes mianimacion {
-    0% {
-        transform: scale(0.2);
+    h3 {
+        margin: auto;
+        font-size: 10rem;
     }
-    85% {
-        transform: scale(1.1);
+    @keyframes mianimacion {
+        0% {
+            transform: scale(0.2);
+        }
+        85% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
     }
-    100% {
-        transform: scale(1);
+    footer {
+        position: relative;
+        top: 370%;
+        margin: 0%;
+        width: 100%;
     }
-}
-
-body footer {
-    position: absolute;
-    bottom: 0px;
 }
